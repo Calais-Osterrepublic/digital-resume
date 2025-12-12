@@ -1,0 +1,87 @@
+/*
+    10/13/25
+    Bed&Breakfast
+    style.css
+*/
+
+body {
+    /*Affects the color and font of all backgrounds and text unless otherwise specified*/
+
+    /*Turns the backgrounds of all elements black*/
+    background-color: black;
+
+    /* Brand Yellow for strong contrast with black background */
+    color: rgb(255, 217, 0);
+
+    /*Provides a default font to those without a specific one*/
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main,
+nav,
+header,
+section,
+footer {/* Affects all of these containers */
+
+    /*Provides visual distance between text and the edge of the host element.*/
+    padding: 10px;
+
+    /*Provides visual distance between sections*/
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    /*Only manifests the border on the top and bottom of the element*/
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+header { /*Affects the header only*/
+
+    /*Removes the unnecessary top border for the header*/
+    border-top-style: none; 
+}
+
+th { /*Affects the table headers only*/
+    
+    /*swiches the background color and text color for the table headers*/
+    background-color: rgb(255, 217, 0);
+    color: black;
+}
+
+a { /*Affects unvisited links*/
+    
+    /*Unvisited Links are now green, and links typically don't have their underline*/
+    color: greenyellow; 
+    text-decoration: none;
+}
+
+a:visited {/*Affects visited links*/
+    /*Makes every link to a visited site cyan, instead of the typical blue*/
+    color: cyan;
+}
+
+a:active { /*Affects active links*/
+    /*The Active link is now pink*/
+    color: hotpink;
+}
+
+a:hover {/*Affects links the mouse is hovering over*/
+    /*Hovered links are white*/
+    color: white;
+    /* Adds the underline to hovered links to further visual distinction*/
+    text-decoration: underline;
+}
+
+fieldset {/*Affects the form fieldsets*/
+    /*Border color for the fieldsets is red to set them apart from typical sections*/
+    border-color: red; 
+
+    /*Sets a distance between the fieldset and other factors around it*/
+    margin: 10px;
+}
+
+img {/*Affects all images*/
+    
+    /* Adjusts the size of the image via its width*/
+    width: 25%;
+}

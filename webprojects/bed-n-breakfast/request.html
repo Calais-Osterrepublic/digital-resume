@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courier B&B - Request Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="images/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--  Bed&Breakfast - request.html - 10/12/25 -->
+</head>
+
+<body>
+    <header>
+        <h1>Courier Bed and Breakfast</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home Page</a>
+        <i class="fa fa-bed" aria-hidden="true"></i>
+        <a href="rooms.html">Rooms</a>
+        <i class="fa fa-bed" aria-hidden="true"></i>
+        <a href="request.html">Request Info</a>
+    </nav>
+    <form method="get" action="thankyou.html">
+        <fieldset>
+            <legend>Name</legend>
+            <label for="frstn">First Name:</label>
+            <input type="text" name="frstn" id="frstn">
+            <label for="lastn">Last Name:</label>
+            <input type="text" name="lastn" id="lastn">
+        </fieldset>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="email">E-Mail:</label>
+            <input type="text" name="email" id="email"><br>
+            <label for="phone">Phone Number:</label>
+            <input type="text" name="phone" id="phone"><br>
+            <label for="bstwy">Preferred means of contact:</label>
+            <select name="bstwy" id="bstwy">
+                <option value="email">E-Mail</option>
+                <option value="pcall">Call</option>
+                <option value="ptext">Text</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Amenities of Interest</legend>
+            <input type="checkbox" name="safe" id="safe">
+            <label for="safe">Safe</label><br>
+            <input type="checkbox" name="cfmkr" id="cfmkr">
+            <label for="cfmkr">Coffee Maker</label><br>
+            <input type="checkbox" name="shwr" id="shwr">
+            <label for="shwr">Shower</label>
+        </fieldset>
+        <fieldset>
+            <legend>Length of Stay</legend>
+            <input type="radio" name="night" id="night">
+            <label for="night"></label>One Night<br>
+            <input type="radio" name="weeks" id="weeks">
+            <label for="weeks"></label>One Week<br>
+            <input type="radio" name="short" id="short">
+            <label for="short"></label>Tourist Standard<br><!-- (Five Nights, 25% off per night!) -->
+        </fieldset>
+        <fieldset>
+            <legend>Purpose of Stay</legend>
+            <input type="radio" name="busy" id="busy">
+            <label for="night"></label>Business Trip<br>
+            <input type="radio" name="tour" id="tour">
+            <label for="weeks"></label>Tourist<br>
+            <input type="radio" name="othr" id="othr">
+            <label for="short"></label>Don't wish to specify<br>
+        </fieldset>
+        <input type="submit" value="submit" id="mitsu">
+    </form>
+    <footer>
+        <a href="index.html">Home Page</a>
+        <i class="fa fa-bed" aria-hidden="true"></i>
+        <a href="rooms.html">Rooms</a>
+        <i class="fa fa-bed" aria-hidden="true"></i>
+        <a href="request.html">Request Info</a>
+    </footer>
+</body>
+
+</html>

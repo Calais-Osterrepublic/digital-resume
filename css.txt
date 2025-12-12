@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -100,23 +99,7 @@ main {
     background-color: #1E1E1E;
     border-radius: 4px;
 }
-/* Link texts to fit the dark theme*/
-.project-card a {
-    color: aqua;
-    text-decoration: none;
-}
-.project-card a:hover {
-    color: rgb(255, 196, 0);
-    text-decoration: underline;
-}
-.project-card a:active {
-    color: rgb(51, 255, 0);
-    text-transform: capitalize;
-}
-.project-card a:visited {
-    color: rgb(225, 0, 255);
-    text-transform: lowercase;
-}
+
 /* Form styles */
 form {
     display: flex;
