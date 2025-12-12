@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Personal resume webpage for [Your Name], showcasing skills, projects, and contact information.">
+    <title>Jb Lumawig Masadao - Personal Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header with name and tagline -->
+    <header>
+        <h1>Jb Lumawig Masadao</h1>
+        <p class="subscript">Aspiring software engineer</p>
+    </header>
+
+    <!-- Navigation menu -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content -->
+    <main>
+        <!-- Skills section -->
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+        <!-- Arbitrary section - Helps with Flex Position -->
+        <section id="body" class="section">
+            <!-- About Me section -->
+            <section id="about" class="section">
+                <h2>About Me</h2>
+                <img src="images/me.jpg" alt="Photo of " width="200">
+                <p>
+                    Jb Lumawig Balilis Masadao is an aspiring software engineer, who found HTML and other front-ends as his first point of entry into the world of computer programming. He started out in middle school studying the application of JavaScript in personal projects. As of 2025, JavaScript, CSS, and HTML are all firmly within his reach.
+
+                </p>
+            </section>
+            <!-- Contact section -->
+            <section id="contact" class="section">
+                <h2>Contact</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </section>
+
+        <!-- Projects section -->
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3><a href="webprojects/funyon/">Funyon Project</a></h3>
+                <p>A fun interactive webpage built with HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project-card">
+                <h3><a href="webprojects/baitshop/">Bait Shop Project</a></h3>
+                <p>A mock e-commerce site for a fishing supply store.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
